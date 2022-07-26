@@ -1,0 +1,20 @@
+.menu-bar{
+  position: relative;
+  width: 100%;
+  margin-top: 56px;
+  background-color: rgb(32, 30, 30);
+  padding: 4px;
+  padding-left: 40px;
+  color: white;
+
+}
+
+.menu-bar #main-nav-section li{
+  display: inline-block;
+ margin-left: 10px;
+ margin-right: 10px;
+}
+
+a{
+  text-decoration: none;
+}

@@ -1,0 +1,57 @@
+<nav class="navbar fixed-top bg-dark">
+  <div class="container-fluid">
+    <a routerLink="/" class="navbar-brand text-white">Navbar</a>
+    <form class="d-flex" role="search">
+      <input
+        class="form-control me-2"
+        type="search"
+        placeholder="Search"
+        aria-label="Search"
+      />
+      <button class="btn btn-outline-light" type="submit">Search</button>
+    </form>
+    <div class="me-3">
+      <a class="text-white" routerLink="/login">Login </a>
+    </div>
+  </div>
+</nav>
+
+<div class="menu-bar">
+  <div class="row">
+    <ul class="pt-2" id="main-nav-section">
+      <li>
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Category
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item">one</a></li>
+          <li><a class="dropdown-item">two</a></li>
+          <li><a class="dropdown-item">three</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Subcategory
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item">one</a></li>
+          <li><a class="dropdown-item">two</a></li>
+          <li><a class="dropdown-item">three</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>

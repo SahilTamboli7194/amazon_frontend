@@ -1,0 +1,34 @@
+<app-sellernavbar></app-sellernavbar>
+<div class="container">
+  <h3 class="m-3">Orders</h3>
+  <div class="p-2">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>Sr.No</th>
+          <th>Consumer Name</th>
+          <th>Order Status</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <td>1</td>
+        <td>first last name</td>
+        <td>order status</td>
+        <td>
+          <div class="row">
+            <div class="col-1 m-1">
+              <button
+                routerLink="/seller/view-order/2"
+                class="btn btn-outline-secondary btn-sm"
+              >
+                <i class="bi bi-eye-fill"></i>
+              </button>
+            </div>
+          </div>
+        </td>
+      </tbody>
+    </table>
+  </div>
+</div>
+<app-footer></app-footer>

@@ -1,0 +1,77 @@
+<nav class="navbar fixed-top bg-dark">
+  <div class="container-fluid">
+    <a routerLink="/seller" class="navbar-brand text-white">Navbar</a>
+    <form class="d-flex" role="search">
+      <input
+        class="form-control me-2"
+        type="search"
+        placeholder="Search"
+        aria-label="Search"
+      />
+      <button class="btn btn-outline-light" type="submit">Search</button>
+    </form>
+    <div class="text-white">
+      <a href="" class="nav-link">
+        <i class="bi bi-box-arrow-right"></i>Logout
+      </a>
+    </div>
+  </div>
+</nav>
+<div class="menu-bar">
+  <div class="row">
+    <ul id="main-nav-section" class="pt-1">
+      <li>
+        <a class="nav-link" routerLink="/seller/"
+          ><i class="bi bi-house"></i> Home
+        </a>
+      </li>
+      <li>
+        <a class="nav-link" routerLink="/seller/account"
+          ><i class="bi bi-person-badge-fill"></i> Account
+        </a>
+      </li>
+      <li>
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <i class="bi bi-minecart-loaded"></i>
+          Product
+        </a>
+        <ul class="dropdown-menu">
+          <li>
+            <a class="dropdown-item" routerLink="/seller/add-product"
+              ><i class="bi bi-plus-circle-fill"></i>Add Product</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item" routerLink="/seller/manage-products"
+              ><i class="bi bi-kanban"></i>Manage Product</a
+            >
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <i class="bi bi-border-style"></i>Order
+        </a>
+        <ul class="dropdown-menu">
+          <li>
+            <a class="dropdown-item" routerLink="/seller/manage-orders"
+              ><i class="bi bi-kanban"></i>Manage Order</a
+            >
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>

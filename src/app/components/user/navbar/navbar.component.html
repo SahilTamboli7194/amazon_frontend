@@ -1,0 +1,58 @@
+<nav class="navbar fixed-top bg-dark">
+  <div class="container-fluid">
+    <a routerLink="/user" class="navbar-brand text-white">Navbar</a>
+    <form class="d-flex" role="search">
+      <input
+        class="form-control me-2"
+        type="search"
+        placeholder="Search"
+        aria-label="Search"
+      />
+      <button class="btn btn-outline-light" type="submit">Search</button>
+    </form>
+    <div class="text-white">
+      <a href="" class="nav-link">
+        <i class="bi bi-box-arrow-right me-1"></i>Logout
+      </a>
+    </div>
+  </div>
+</nav>
+<div class="menu-bar">
+    <div class="row">
+        <ul class="pt-2" id="main-nav-section">
+
+          <li>
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Category
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item">one</a></li>
+              <li><a class="dropdown-item">two</a></li>
+              <li><a class="dropdown-item">three</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Subcategory
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item">one</a></li>
+              <li><a class="dropdown-item">two</a></li>
+              <li><a class="dropdown-item">three</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" routerLink="/user/account">Account</a></li>
+              <li><a class="dropdown-item" routerLink="/user/carts">Cart</a></li>
+              <li><a class="dropdown-item" routerLink="/user/orders">Orders</a></li>
+            </ul>
+          </li>
+        </ul>
+    </div>
+</div>

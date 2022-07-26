@@ -1,0 +1,124 @@
+<app-sellernavbar></app-sellernavbar>
+<div class="container p-3 mb-4">
+  <div class="card">
+    <div class="card-header text-center p-3">
+      <h3>Add Product</h3>
+    </div>
+    <div class="card-body p-4">
+
+      <div class="row pb-2 ms-2">
+        <div class="col-5 bg-light border p-2 pt-3 rounded text-center me-1">
+          <label for=""> Product Name </label>
+        </div>
+        <div class="col-5 p-2 border rounded text-center me-1">
+          <input
+            type="text"
+            name="firstName"
+            placeholder="First Name"
+            class="form-control"
+          />
+        </div>
+      </div>
+
+      <div class="row pb-2 ms-2">
+        <div class="col-5 bg-light border p-2 pt-3 rounded text-center me-1">
+          <label for=""> Product Image </label>
+        </div>
+        <div class="col-5 p-2 border rounded text-center me-1">
+          <input
+            type="file"
+            name="firstName"
+            placeholder="First Name"
+            class="form-control"
+          />
+        </div>
+      </div>
+
+      <div class="row pb-2 ms-2">
+        <div class="col-5 bg-light border p-2 pt-3 rounded text-center me-1">
+          <label for=""> Product Description </label>
+        </div>
+        <div class="col-5 p-2 border rounded text-center me-1">
+          <textarea
+            name="product_description"
+            placeholder="Product Description"
+            cols="30"
+            rows="5"
+            class="form-control"
+          ></textarea>
+        </div>
+      </div>
+
+      <div class="row pb-2 ms-2">
+        <div class="col-5 bg-light border p-2 pt-3 rounded text-center me-1">
+          <label for=""> Price </label>
+        </div>
+        <div class="col-5 p-2 border rounded text-center me-1">
+          <input
+            type="number"
+            name="price"
+            placeholder="price"
+            class="form-control"
+          />
+        </div>
+      </div>
+
+      <div class="row pb-2 ms-2">
+        <div class="col-5 bg-light border p-2 pt-3 rounded text-center me-1">
+          <label for=""> Category </label>
+        </div>
+        <div class="col-5 p-2 border rounded text-center me-1">
+          <select class="form-select" aria-label="Default select example">
+            <option selected disabled>Category</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row pb-2 ms-2">
+        <div class="col-5 bg-light border p-2 pt-3 rounded text-center me-1">
+          <label for=""> Subcategory </label>
+        </div>
+        <div class="col-5 p-2 border rounded text-center me-1">
+          <select class="form-select" aria-label="Default select example">
+            <option selected disabled>Subcategory</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row pb-2 ms-2">
+        <div class="col-5 bg-light border p-2 pt-3 rounded text-center me-1">
+          <label for=""> brand </label>
+        </div>
+        <div class="col-5 p-2 border rounded text-center me-1">
+          <select class="form-select" aria-label="Default select example">
+            <option selected disabled>brand</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row pb-2 ms-2">
+        <div class="col-5  p-2 pt-3 rounded text-center me-1">
+
+        </div>
+        <div class="col-5 p-2  rounded text-end me-1">
+          <button type="reset" class="btn btn-danger">
+            clear
+          </button>
+          <button class="btn btn-success mx-2">
+            Save
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
