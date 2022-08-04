@@ -5,22 +5,20 @@
             <div class="card bg-light">
                 <div class="row">
                     <div class="col-5 border p-3 m-2 ms-4">
-                      image
+                     <img src="{{product.img_path}}" alt="" class="img-fluid">
                     </div>
                     <div class="col-6 ps-3 p-4">
                         <h4 class="pb-3">
-                          prodcut name
+                          prodcut name :- {{product.name}}
                         </h4>
                       <h5 class="pb-3">
                         Description:-
                         <p style="line-height: 35px; padding-left:20px; margin-top: 10px;">
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
-                           Eaque unde amet suscipit deserunt nostrum quidem, provident voluptate,<br>
-                            expedita dolore sapiente modi ab doloremque obcaecati est quaerat ex rerum nam voluptates.<br>
+                          {{product.description}}
                         </p>
                       </h5>
                       <h5 class="pb-5">
-                        prodcut price
+                        prodcut price :- {{product.price}}
                       </h5>
                       <p>
                         <button class="btn btn-outline-secondary">
